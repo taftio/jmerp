@@ -30,6 +30,13 @@
         <configuration>
           <java></java>
         </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <groupId>com.github.ekryd.sortpom</groupId>
