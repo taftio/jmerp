@@ -1,15 +1,13 @@
 package com.chaosserver.merp.rules.race;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.ListIterator;
-
 import com.chaosserver.assertion.Assertion;
 import com.chaosserver.data.JavaBeanLoader;
 import com.chaosserver.data.JavaBeanLoaderExceptionX;
+import com.chaosserver.exception.LoadErrorRX;
 import com.chaosserver.merp.character.MerpCharacter;
 import com.chaosserver.merp.data.FileNameGetter;
-import com.chaosserver.exception.LoadErrorRX;
+import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Holds the system list of all of the races.
@@ -77,7 +75,7 @@ public class RaceList {
      * @return an iterator over the elements in this collection
      */
     public RaceListIterator iterator() {
-        return new RaceListIterator((ListIterator) m_raceList.listIterator());;
+      return new RaceListIterator(m_raceList.listIterator());
     }
 
     /**

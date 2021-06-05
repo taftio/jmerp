@@ -1,13 +1,12 @@
 package com.chaosserver.data;
 
-import java.io.InputStream;
-
-import org.xml.sax.InputSource;
-import org.xml.sax.helpers.DefaultHandler;
-import org.xml.sax.SAXException;
-
-import com.chaosserver.merp.data.FileNameGetter;
 import com.chaosserver.logging.CategoryCache;
+import com.chaosserver.merp.data.FileNameGetter;
+import java.io.IOException;
+import java.io.InputStream;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
 
 /**
  * This is used to attempt to load a DTD for a document from the classpath
@@ -29,8 +28,9 @@ public class DtdEntityResolver extends DefaultHandler {
      * @return The new input source, or null to require the default behaviour.
      * @throws SAXException Any SAX exception, possibly wrapping another exception.
      */
+    @Override
     public InputSource resolveEntity(String publicId, String systemId)
-            throws SAXException {
+        throws SAXException, IOException {
 
         InputSource result = null;
         CategoryCache.getInstance(this).debug("publicId: " + publicId);
