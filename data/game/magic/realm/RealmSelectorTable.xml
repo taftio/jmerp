@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!DOCTYPE RollTableRoot SYSTEM "..\..\RollTable.dtd">
+<RollTableRoot>
+  <RollTable min="1" max="100" open="FALSE">
+    <FinderObject objectClass="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name"/>
+    <Row min="1" max="50">
+      <PrimaryKey>Essence</PrimaryKey>
+    </Row>
+    <Row min="51" max="100">
+      <PrimaryKey>Channeling</PrimaryKey>
+    </Row>
+  </RollTable>
+</RollTableRoot>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RollTableRoot SYSTEM "..\RollTable.dtd">
+<RollTableRoot>
+  <RollTable min="1" max="100" open="FALSE">
+    <FinderObject objectClass="com.chaosserver.merp.rules.specialabilities.SpecialAbility" finderClass="com.chaosserver.merp.rules.specialabilities.SpecialAbilityFinder" finderKey="Name"/>
+    <Row min="1" max="50">
+      <PrimaryKey>Skill Bonus: +5</PrimaryKey>
+    </Row>
+    <!-- Row min="51" max="55" -->
+    <Row min="51" max="60">
+      <PrimaryKey>Skill Bonus: +10</PrimaryKey>
+    </Row>
+    <!-- Row min="56" max="60" -->
+      <!-- PrimaryKey>Animal Empathy</PrimaryKey -->
+    <!-- /Row -->
+    <Row min="61" max="65">
+      <PrimaryKey>Sensory Enhancement</PrimaryKey>
+    </Row>
+    <Row min="66" max="70">
+      <PrimaryKey>Resistance</PrimaryKey>
+    </Row>
+    <Row min="71" max="75">
+      <PrimaryKey>Spell Proficient</PrimaryKey>
+    </Row>
+    <Row min="76" max="80">
+      <PrimaryKey>Adept Moving Maneuvers</PrimaryKey>
+    </Row>
+    <Row min="81" max="85">
+      <PrimaryKey>Observant</PrimaryKey>
+    </Row>
+    <Row min="86" max="90">
+      <PrimaryKey>Lightning Reaction</PrimaryKey>
+    </Row>
+    <Row min="91" max="95">
+      <PrimaryKey>Charismatic</PrimaryKey>
+    </Row>
+    <Row min="96" max="100">
+      <PrimaryKey>Pain Resistance</PrimaryKey>
+    </Row>
+  </RollTable>
+</RollTableRoot>

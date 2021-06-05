@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.specialabilities.SpecialAbilities">
+  <Property name="SpecialAbilities">
+    <Collection class="java.util.ArrayList">
+      <Bean class="com.chaosserver.merp.rules.specialabilities.SkillBonusAbility">
+        <Property name="Amount">
+          <Object class="java.lang.Integer">5</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.SkillBonusAbility">
+        <Property name="Amount">
+          <Object class="java.lang.Integer">10</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.AnimalEmpathyAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.SensoryEnhancementAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.ResistanceAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.SpellProficientAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.MovingManeuversAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.ObservantAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.LightningReactionAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.CharismaticAbility"/>
+      <Bean class="com.chaosserver.merp.rules.specialabilities.PainResistanceAbility"/>
+    </Collection>
+  </Property>
+</Bean>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.gui.swing.specialabilities.SpecialAbilityPanelFactory">
+  <Property name="Panels">
+    <Map class="java.util.HashMap">
+        <Bean class="com.chaosserver.data.MapEntry">
+          <Property name="Key">
+            <Object class="java.lang.String">com.chaosserver.merp.rules.specialabilities.SkillBonusAbility</Object>
+          </Property>
+          <Property name="Value">
+            <Object class="java.lang.String">com.chaosserver.merp.gui.swing.specialabilities.SkillBonusAbilityPanel</Object>
+          </Property>
+        </Bean>
+    </Map>
+  </Property>
+</Bean>

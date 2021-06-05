@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!ELEMENT SkillList (SkillCategory)+>
+<!ELEMENT SkillCategory (Skill)+>
+<!ATTLIST SkillCategory
+	SkillCategoryName CDATA #REQUIRED
+>
+<!ELEMENT Skill (SkillName, SkillStatName?, SkillSpecialBonus?, SkillProgressionList?)>
+<!ATTLIST Skill
+	maxRanks CDATA "*"
+	transferToZero CDATA "4"
+	transferToNonZero CDATA "2"
+>
+<!ELEMENT SkillName (#PCDATA)>
+<!ELEMENT SkillProgressionList (ProgressionDPCost)+>
+<!ELEMENT ProgressionDPCost (#PCDATA)>
+<!ELEMENT SkillStatName (#PCDATA)>
+<!ELEMENT SkillSpecialBonus (#PCDATA)>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!ELEMENT RollTableRoot (RollTable)>
+<!ELEMENT RollTable (FinderObject, Row+)>
+<!ELEMENT Row (PrimaryKey | RollTable)>
+<!ATTLIST Row
+	min CDATA #REQUIRED
+	max CDATA #REQUIRED
+>
+<!ELEMENT FinderObject EMPTY>
+<!ATTLIST FinderObject
+	objectClass CDATA #REQUIRED
+	finderClass CDATA #REQUIRED
+	finderKey CDATA #REQUIRED
+>
+<!ELEMENT PrimaryKey (#PCDATA)>
+<!ATTLIST RollTable
+	min CDATA #REQUIRED
+	max CDATA #REQUIRED
+	open (TRUE | FALSE) "FALSE"
+>

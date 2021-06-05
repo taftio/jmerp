@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+</head>
+<body bgcolor="white">
+
+Provides for restriction support to a Merp Character.
+
+
+<h2>Package Specification</h2>
+<p>
+Many objects that are applied to a Merp Character have certain restrictions
+about what the various other objects set to a Merp Character can be.  For
+example, by applying a attribute like Dwarf to a character, there must be
+a restriction added that this character cannot be a Mage.  This should be done
+by adding a restrictions to the Dwarf race that will veto any attemp to
+change the profession property to a Mage.
+</P>
+<p>
+To use the support on your object, it must implement the <code>IRestrictable</code>
+interface.  This identifies that it has a restriction list assocated with it.
+When this object is added as a value to the MerpCharacter, it will pull out
+the restriction list and add all of the restrictions on to the MerpCharacter so
+that they will be checked moving forward.  If this property is ever removed from
+the Merp Character (as may be the case for items), the character will remove
+all associated restrictions as well.
+</p>
+
+<!-- Put @see and @since tags down here. -->
+@since 0.1
+</body>
+</html>

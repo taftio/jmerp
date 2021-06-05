@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.skill.SkillCategory">
+  <Property name="Name">
+    <Object class="java.lang.String">General</Object>
+  </Property>
+  <Property name="SkillList">
+    <Collection class="java.util.ArrayList">
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Climb</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Agility</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">12</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Ride</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intuition</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">13</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Swim</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Agility</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">14</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Track</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intuition</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">15</Object>
+        </Property>
+      </Bean>
+
+    </Collection>
+  </Property> 
+</Bean>

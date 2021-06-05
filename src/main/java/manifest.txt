@@ -1,0 +1,4 @@
+Name: merp/rules/race/RaceList.class
+Java-Bean: True
+Name: merp/rules/magic/realm/Realm.class
+Java-Bean: True

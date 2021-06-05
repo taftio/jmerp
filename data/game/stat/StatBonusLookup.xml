@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Collection SYSTEM "../JavaBean.dtd">
+<Collection class="com.chaosserver.data.Lookup">
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">1</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-25</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">2</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-20</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">3</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-15</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">4</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-15</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">5</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">6</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">7</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">8</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">9</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">10</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">11</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">12</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">13</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">14</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">15</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">16</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">17</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">18</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">19</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">20</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">21</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">22</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">23</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">24</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">-5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">25</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">26</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">27</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">28</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">29</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">30</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">31</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">32</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">33</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">34</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">35</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">36</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">37</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">38</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">39</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">40</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">41</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">42</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">43</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">44</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">45</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">46</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">47</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">48</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">49</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">50</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">51</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">52</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">53</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">54</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">55</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">56</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">57</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">58</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">59</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">60</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">61</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">62</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">63</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">64</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">65</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">66</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">67</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">68</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">69</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">70</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">71</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">72</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">73</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">74</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">0</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">75</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">76</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">77</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">78</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">79</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">80</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">81</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">82</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">83</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">84</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">85</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">86</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">87</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">88</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">89</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">5</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">90</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">91</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">92</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">93</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">94</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">10</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">95</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">15</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">96</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">15</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">97</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">15</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">98</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">20</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">99</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">20</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">100</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">25</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">101</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">30</Object></Property>
+	</Bean>
+	<Bean class="com.chaosserver.data.LookupEntry">
+		<Property name="Key"><Object class="java.lang.Integer">102</Object></Property>
+		<Property name="Value"><Object class="java.lang.Integer">35</Object></Property>
+	</Bean>
+</Collection>

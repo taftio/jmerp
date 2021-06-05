@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.magic.SpellCategories"> 
+  <Property name="SpellCategories"> 
+    <Collection class="java.util.ArrayList"> 
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Open Essence</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Realm</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Mage</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Profession</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Bard</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Profession</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Open Channeling</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Realm</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Animist</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Profession</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellCategory"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Ranger</Object>
+        </Property>
+        <Property name="CategoryType">
+          <Object class="java.lang.String">Profession</Object>
+        </Property>
+      </Bean>
+    </Collection>
+  </Property>
+</Bean>

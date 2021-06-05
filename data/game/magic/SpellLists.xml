@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.magic.SpellLists"> 
+  <Property name="SpellLists"> 
+    <Collection class="java.util.ArrayList"> 
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Physical Enhancement</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Essence's Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Unbarring Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Essence Hand</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Spell Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Essence Perceptions</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Illusions</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Essence</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Spirit Mastery</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Fire Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Ice Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Earth Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Light Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Wind Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Water Law</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Lofty Bridge</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Mage</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Living Change</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Bard</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Lore</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Bard</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Controlling Songs</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Bard</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Sound Control</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Bard</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Item Lore</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Nature's Lore</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Nature's Movement</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Spell Defense</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Surface Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Protections</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Detection Mastery</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Sound/Light Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Open Channeling</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Calm Spirits</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Direct Channeling</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Blood Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Bone/Muscle Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Organ Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Animal Mastery</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Plant Mastery</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Purifications</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Animist</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Creations</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Ranger</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Path Mastery</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Ranger</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Moving Ways</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Ranger</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Nature's Guises</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.SpellList"> 
+        <Property name="SpellCategory">
+          <Findable class="com.chaosserver.merp.rules.magic.SpellCategory" finderClass="com.chaosserver.merp.rules.magic.SpellCategoryFinder" finderKey="Name">Ranger</Findable>
+        </Property>
+        <Property name="Name"> 
+          <Object class="java.lang.String">Nature's Ways</Object>
+        </Property>
+      </Bean>
+    </Collection>
+  </Property>
+</Bean>

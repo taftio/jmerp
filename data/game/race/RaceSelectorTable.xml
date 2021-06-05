@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RollTableRoot SYSTEM "..\RollTable.dtd">
+<RollTableRoot>
+  <RollTable min="1" max="100" open="FALSE">
+    <FinderObject objectClass="com.chaosserver.merp.rules.race.Race" finderClass="com.chaosserver.merp.rules.race.RaceFinder" finderKey="Name"/>
+    <Row min="1" max="3">
+      <PrimaryKey>Hobbit</PrimaryKey>
+    </Row>
+    <Row min="4" max="8">
+      <PrimaryKey>Umli</PrimaryKey>
+    </Row>
+    <Row min="9" max="21">
+      <PrimaryKey>Dwarf</PrimaryKey>
+    </Row>
+    <Row min="22" max="25">
+      <PrimaryKey>Wose</PrimaryKey>
+    </Row>
+    <Row min="26" max="75">
+      <RollTable min="1" max="100" open="FALSE">
+        <FinderObject objectClass="com.chaosserver.merp.rules.race.Race" finderClass="com.chaosserver.merp.rules.race.RaceFinder" finderKey="Name"/>
+        <Row min="1" max="5">
+          <PrimaryKey>Dúnedain</PrimaryKey>
+        </Row>
+        <Row min="6" max="10">
+          <PrimaryKey>Rohirrim</PrimaryKey>
+        </Row>
+        <Row min="11" max="15">
+          <PrimaryKey>Beorning</PrimaryKey>
+        </Row>
+        <Row min="16" max="20">
+          <PrimaryKey>Woodman</PrimaryKey>
+        </Row>
+        <Row min="21" max="25">
+          <PrimaryKey>Dorwinrim</PrimaryKey>
+        </Row>
+        <Row min="26" max="30">
+          <PrimaryKey>Lossadan</PrimaryKey>
+        </Row>
+        <Row min="31" max="54">
+          <PrimaryKey>Eriadoran</PrimaryKey>
+        </Row>
+        <Row min="55" max="78">
+          <PrimaryKey>Gondorian</PrimaryKey>
+        </Row>
+        <Row min="79" max="83">
+          <PrimaryKey>Dunlending</PrimaryKey>
+        </Row>
+        <Row min="84" max="86">
+          <PrimaryKey>Easterling</PrimaryKey>
+        </Row>
+        <Row min="87" max="89">
+          <PrimaryKey>Haradan</PrimaryKey>
+        </Row>
+        <Row min="90" max="92">
+          <PrimaryKey>Corsair</PrimaryKey>
+        </Row>
+        <Row min="93" max="95">
+          <PrimaryKey>Variag</PrimaryKey>
+        </Row>
+        <Row min="96" max="100">
+          <PrimaryKey>Black Númenórean</PrimaryKey>
+        </Row>
+      </RollTable>
+    </Row>
+    <Row min="76" max="78">
+      <PrimaryKey>Half-elf</PrimaryKey>
+    </Row>
+    <Row min="79" max="91">
+      <PrimaryKey>Silvan Elf</PrimaryKey>
+    </Row>
+    <Row min="92" max="97">
+      <PrimaryKey>Sinda Elf</PrimaryKey>
+    </Row>
+    <Row min="98" max="100">
+      <PrimaryKey>Noldo Elf</PrimaryKey>
+    </Row>
+  </RollTable>
+</RollTableRoot>

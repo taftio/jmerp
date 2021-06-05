@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!ELEMENT RaceList (Race)+>
+<!ATTLIST RaceList
+	title CDATA #REQUIRED
+	author CDATA "unknown"
+	version CDATA #REQUIRED
+>
+<!ELEMENT Race (RaceName, StatRestrictionList, ProfessionRestrictionList)>
+<!ELEMENT StatRestrictionList (RankStatRestriction)*>
+<!ELEMENT RankStatRestriction (#PCDATA)>
+<!ATTLIST RankStatRestriction
+	Place CDATA #REQUIRED
+>
+<!ELEMENT ProfessionRestrictionList (ProfessionRestriction)*>
+<!ELEMENT ProfessionRestriction (#PCDATA)>
+<!ELEMENT RaceName (#PCDATA)>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.skill.SkillCategory">
+  <Property name="Name">
+    <Object class="java.lang.String">Subterfuge</Object>
+  </Property>
+  <Property name="SkillList">
+    <Collection class="java.util.ArrayList">
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Ambush</Object>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">16</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Stalk/Hide</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Presence</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">17</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Pick Lock</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intelligence</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">18</Object>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.skill.Skill">
+        <Property name="Name">
+          <Object class="java.lang.String">Disarm Trap</Object>
+        </Property>
+        <Property name="Stat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intuition</Findable>
+        </Property>
+        <Property name="ProgressionList">
+          <Bean class="com.chaosserver.merp.rules.skill.ProgressionList">
+            <Property name="ProgressionList">
+              <Collection class="java.util.ArrayList">
+                <Object class="java.lang.Integer">1</Object>
+                <Object class="java.lang.Integer">2</Object>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="Id">
+          <Object class="java.lang.Integer">19</Object>
+        </Property>
+      </Bean>
+
+    </Collection>
+  </Property>
+</Bean>

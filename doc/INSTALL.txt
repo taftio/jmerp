@@ -1,0 +1,38 @@
+Chaos, INC.'s JMERP Framework v1.0
+-----------------------------
+The vision is a rather robust implemenation of the rules of the Middle
+Earth Role Playing system, implemented using JavaBeans(TM) and XML data
+files.  In theory, the components built could be easily used by others
+to plug into another user interface (such as web or just a prettier
+java interface).
+
+Feel free to throw the JAR file into a development kit and reuse the
+beans that exists.  Documentation, in the form of a JavaDoc, will
+soon exist on the production site.
+
+If you need to contact the developer, please e-mail him at:
+  reedjd@bitsmart.com
+
+If you modify, improve or use this software, feel free to notify the
+developer.  I'd love to hear about it.
+
+
+
+Contents:
+-----------------------------
+1. Requirements
+2. Installing
+3. Debugging the CLASSPATH
+
+
+1. Requirements
+-----------------------------
+Obviously you need a version of Java.  This was developed in v1.3
+Java(TM) 2 SDK, Standard Edition, v 1.3 (http://java.sun.com/j2se/1.3/)
+
+2. Installing
+-----------------------------
+Unzip the included file into some directory, such as
+c:\program files\javamerp
+
+Run the "CharGen.bat" program.

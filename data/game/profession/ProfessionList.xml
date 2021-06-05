@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.profession.ProfessionList">
+  <Property name="ProfessionList">
+    <Collection class="java.util.ArrayList">
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Warrior</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Strength</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Essence</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">3</Object>
+                  </Property>
+                </Bean>
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Channeling</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">3</Object>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">3</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Weapon</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">General</Findable>
+              </Property>
+            </Bean>
+
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Body Development</Findable>
+              </Property>
+            </Bean>
+          </Collection>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Scout</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Agility</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Essence</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">5</Object>
+                  </Property>
+                </Bean>
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Channeling</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">5</Object>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Weapon</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">General</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Subterfuge</Findable>
+              </Property>
+            </Bean>
+
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">3</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Perception</Findable>
+              </Property>
+            </Bean>
+          </Collection>
+        </Property>
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Ranger</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Constitution</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Channeling</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">5</Object>
+                  </Property>
+                </Bean>
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Essence</Findable>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Weapon</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">3</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">General</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Perception</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Stalk/Hide</Findable>
+              </Property>
+            </Bean>
+          </Collection>
+        </Property>
+      </Bean>
+      
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Mage</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intelligence</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Channeling</Findable>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Read Rune</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Use Item</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">3</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Directed Spells</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Base Spell OB</Findable>
+              </Property>
+            </Bean>
+          </Collection>
+        </Property>
+
+        
+      </Bean>
+      
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Animist</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Intuition</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Essence</Findable>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">General</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Read Rune</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Use Item</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Directed Spells</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Base Spell OB</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Perception</Findable>
+              </Property>
+            </Bean>
+
+          </Collection>
+        </Property>
+
+      </Bean>
+
+      <Bean class="com.chaosserver.merp.rules.profession.Profession">
+        <Property name="Name">
+          <Object class="java.lang.String">Bard</Object>
+        </Property>
+        <Property name="PrimeStat">
+          <Findable class="com.chaosserver.merp.rules.stat.Stat" finderClass="com.chaosserver.merp.rules.stat.StatFinder" finderKey="Name">Presence</Findable>
+        </Property>
+        <Property name="RestrictionList">
+          <Bean class="com.chaosserver.merp.rules.restriction.RestrictionList">
+            <Property name="RestrictionList">
+              <Collection class="java.util.ArrayList">
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Channeling</Findable>
+                  </Property>
+                </Bean>
+                <Bean class="com.chaosserver.merp.rules.magic.realm.restriction.RealmLevelRestriction">
+                  <Property name="Realm">
+                    <Findable class="com.chaosserver.merp.rules.magic.realm.Realm" finderClass="com.chaosserver.merp.rules.magic.realm.RealmFinder" finderKey="Name">Essence</Findable>
+                  </Property>
+                  <Property name="MaxLevel">
+                    <Object class="java.lang.Integer">5</Object>
+                  </Property>
+                </Bean>
+              </Collection>
+            </Property>
+          </Bean>
+        </Property>
+
+        <Property name="SkillModifierList">
+          <Collection class="com.chaosserver.merp.rules.skill.modifier.SkillModifierList">
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Weapon</Findable>
+              </Property>
+            </Bean>
+          
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">General</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Subterfuge</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">1</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">CATEGORY_BONUS</Object>
+              </Property>
+              <Property name="SkillCategory">
+                <Findable class="com.chaosserver.merp.rules.skill.SkillCategory" finderClass="com.chaosserver.merp.rules.skill.SkillCategoryFinder" finderKey="Name">Magical</Findable>
+              </Property>
+            </Bean>
+            
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Base Spell OB</Findable>
+              </Property>
+            </Bean>
+
+            <Bean class="com.chaosserver.merp.rules.profession.modifiers.ProfessionBonus">
+              <Property name="Value">
+                <Object class="java.lang.Integer">2</Object>
+              </Property>
+              <Property name="AffectedType">
+                <Object class="java.lang.String">SKILL_BONUS</Object>
+              </Property>
+              <Property name="Skill">
+                <Findable class="com.chaosserver.merp.rules.skill.Skill" finderClass="com.chaosserver.merp.rules.skill.SkillFinder" finderKey="Name">Perception</Findable>
+              </Property>
+            </Bean>
+          </Collection>
+        </Property>
+
+      </Bean>
+
+
+    </Collection>
+  </Property>
+</Bean>

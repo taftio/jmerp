@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!DOCTYPE StatList SYSTEM "StatList.dtd">
+<StatList title="MERP" author="Jordan Reed" version="1.0" min="360">
+	<Stat ID="0" min="20" adjust="10">
+		<Name>Strength</Name>
+		<Abbr>ST</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="1" min="20" adjust="10">
+		<Name>Agility</Name>
+		<Abbr>AG</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="2" min="20" adjust="10">
+		<Name>Constitution</Name>
+		<Abbr>CO</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="3" min="20" adjust="10">
+		<Name>Intelligence</Name>
+		<Abbr>IG</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="4" min="20" adjust="10">
+		<Name>Intuition</Name>
+		<Abbr>IT</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="5" min="20" adjust="10">
+		<Name>Presence</Name>
+		<Abbr>PR</Abbr>
+		<Swappable/>
+		<Totaled/>
+	</Stat>
+	<Stat ID="6" min="20">
+		<Name>Appearance</Name>
+		<Abbr>AP</Abbr>
+	</Stat>
+</StatList>

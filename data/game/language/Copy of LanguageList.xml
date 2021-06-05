@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.language.LanguageList">
+  <Property name="Languages">
+    <Collection class="java.util.ArrayList">
+      <Bean class="com.chaosserver.merp.rules.language.Language">
+        <Property name="Name">
+          <Object class="java.lang.String">Adunaic</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.language.Language">
+        <Property name="Name">
+          <Object class="java.lang.String">Apysaic</Object>
+        </Property>
+      </Bean>
+    </Collection>
+  </Property>
+</Bean>

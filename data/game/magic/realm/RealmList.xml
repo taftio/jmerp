@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bean SYSTEM "../../JavaBean.dtd">
+<Bean class="com.chaosserver.merp.rules.magic.realm.RealmList"> 
+  <Property name="Realms"> 
+    <Collection class="java.util.ArrayList"> 
+      <Bean class="com.chaosserver.merp.rules.magic.realm.Realm"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Essence</Object>
+        </Property>
+      </Bean>
+      <Bean class="com.chaosserver.merp.rules.magic.realm.Realm"> 
+        <Property name="Name"> 
+          <Object class="java.lang.String">Channeling</Object>
+        </Property>
+      </Bean>
+    </Collection>
+  </Property>
+</Bean>

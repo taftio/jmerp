@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Jordan Reed (Chaos, INC.) -->
+<!ELEMENT StatList (Stat*)+>
+<!ATTLIST StatList
+	title CDATA #REQUIRED
+	author CDATA "unknown"
+	version CDATA #REQUIRED
+	min CDATA "0"
+>
+<!ELEMENT Stat (Name?, Abbr?, Swappable?, Totaled?)>
+<!ATTLIST Stat
+	ID CDATA #REQUIRED
+	min CDATA "20"
+	adjust CDATA "0"
+>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Abbr (#PCDATA)>
+<!ELEMENT Swappable EMPTY>
+<!ELEMENT Totaled EMPTY>

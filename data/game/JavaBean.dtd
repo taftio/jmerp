@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Bean (Property)*>
+<!ATTLIST Bean
+	class CDATA #REQUIRED
+>
+<!ELEMENT Property (Object | Collection | Map | Bean | Findable)?>
+<!ATTLIST Property
+	name CDATA #REQUIRED
+>
+<!ELEMENT Object (#PCDATA)>
+<!ATTLIST Object
+	class CDATA #REQUIRED
+>
+<!ELEMENT Collection (Bean | Object | Collection | Map)*>
+<!ATTLIST Collection
+	class CDATA #REQUIRED
+>
+
+<!ELEMENT Map (Bean)*>
+<!ATTLIST Map
+    class CDATA #REQUIRED
+>
+
+<!ELEMENT Findable (#PCDATA)>
+<!ATTLIST Findable
+	class CDATA #REQUIRED
+	finderClass CDATA #REQUIRED
+	finderKey CDATA #REQUIRED
+>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SkillList SYSTEM "SkillList.dtd">
+<SkillList>
+	<SkillCategory SkillCategoryName="Movement &amp; Maneuver">
+		<Skill maxRanks="2" transferToNonZero="2" transferToZero="4">
+			<SkillName>No Armor</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="3" transferToNonZero="2" transferToZero="4">
+			<SkillName>Soft Leather</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillSpecialBonus>-15</SkillSpecialBonus>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="5" transferToNonZero="2" transferToZero="4">
+			<SkillName>Rigid Leather</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillSpecialBonus>-30</SkillSpecialBonus>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="7" transferToNonZero="2" transferToZero="4">
+			<SkillName>Chain</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillSpecialBonus>-45</SkillSpecialBonus>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="9" transferToNonZero="2" transferToZero="4">
+			<SkillName>Plate</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillSpecialBonus>-60</SkillSpecialBonus>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>1</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+	</SkillCategory>
+	<SkillCategory SkillCategoryName="Weapon">
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>1-H Edged</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>1-H Concussion</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>2-Handed</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Thrown</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Missile</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Pole-arms</SkillName>
+			<SkillStatName>Strength</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+	</SkillCategory>
+	<SkillCategory SkillCategoryName="General">
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Climb</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Ride</SkillName>
+			<SkillStatName>Intuition</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Swim</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Track</SkillName>
+			<SkillStatName>Intelligence</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+	</SkillCategory>
+	<SkillCategory SkillCategoryName="Subterfuge">
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Ambush</SkillName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Stalk/Hide</SkillName>
+			<SkillStatName>Presence</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Pick Lock</SkillName>
+			<SkillStatName>Intelligence</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Disarm Trap</SkillName>
+			<SkillStatName>Intuition</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+	</SkillCategory>
+	<SkillCategory SkillCategoryName="Magical">
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Read Rune</SkillName>
+			<SkillStatName>Intelligence</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Use Item</SkillName>
+			<SkillStatName>Intelligence</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Directed Spells</SkillName>
+			<SkillStatName>Agility</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+	</SkillCategory>
+	<SkillCategory SkillCategoryName="Miscellaneous">
+		<Skill maxRanks="*" transferToNonZero="1" transferToZero="1">
+			<SkillName>Perception</SkillName>
+			<SkillStatName>Intuition</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="*" transferToNonZero="2" transferToZero="4">
+			<SkillName>Body Development</SkillName>
+			<SkillStatName>Constitution</SkillStatName>
+			<SkillProgressionList>
+				<ProgressionDPCost>1</ProgressionDPCost>
+				<ProgressionDPCost>2</ProgressionDPCost>
+			</SkillProgressionList>
+		</Skill>
+		<Skill maxRanks="0" transferToNonZero="0" transferToZero="0">
+			<SkillName>Base Spell OB</SkillName>
+		</Skill>
+	</SkillCategory>
+</SkillList>

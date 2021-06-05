@@ -1,0 +1,116 @@
+Singletons
+
+ * <p>
+ * This object is a static singleton.  All methods on this object are static and
+ * should be called directory, but it is possible to make a single instance
+ * if desired.
+ * </p>
+
+    /** Protected constructor to force all access through the instance method */
+
+    /**
+     * Public constructor for use by the bean loader only.  All other
+     * classes should use the instance() method to get an instance of
+     * this object.
+     */
+
+    /**
+     * Singleton method that is used to get the one instance of this object in the system.
+     *
+     * @return The one instance of this object
+     */
+
+    /** Singleton self reference */
+
+All
+
+    /**
+     * Converts the object to string representation.
+     *
+     * @return a string representation of the object
+     */
+
+    /**
+     * Creates and returns a copy of this object.
+     *
+     * @return a clone of this instance.
+     */
+
+    /**
+     * Indicates whether some other object is "equal to" this one.
+     *
+     * @param obj the reference object with which to compare.
+     * @return true if this object is the same as the obj argument; false otherwise.
+     */
+
+Property Supporters
+
+    /** Holds the reference to the property change supporter. */
+
+    /**
+     * Add a PropertyChangeListener to the listener list. The listener is registered for all properties.
+     *
+     * @param l The PropertyChangeListener to be added
+     * @see #removePropertyChangeListener
+     */
+
+    /**
+     * Remove a PropertyChangeListener from the listener list. This removes a PropertyChangeListener
+     * that was registered for all properties.
+     *
+     * @param l The PropertyChangeListener to be removed
+     * @see #addPropertyChangeListener
+     */
+
+    /** Holds the reference to the vetoable change supporter. */
+
+    /**
+     * Add a VetoableChangeListener to the listener list. The listener is registered for all properties.
+     *
+     * @param v The VetoableChangeListener to be added
+     * @see #removeVetoableChangeListener
+     */
+
+    /**
+     * Remove a VetoableChangeListener from the listener list. This removes a
+     * VetoableChangeListener that was registered for all properties.
+     *
+     * @param v The VetoableChangeListener to be removed
+     * @see #addVetoableChangeListener
+     */
+
+
+Collections
+    /**
+     * Returns an iterator over the elements in this collection.
+     *
+     * @return an iterator over the elements in this collection
+     */
+
+Iterators
+    /**
+     * Checks if the iterator has another element.
+     *
+     * @return if the iterator has another element
+     */
+
+    /**
+     * Gets the next element from the iterator.
+     *
+     * @return the next element in the iterator
+     */
+
+
+Exception
+    /**
+     * Creates a new exception with a descriptor.
+     *
+     * @param s The description
+     */
+
+    /**
+     * Creates a new exception around an old one with description.
+     *
+     * @param s The description
+     * @param e The exception being wrapped
+     */
